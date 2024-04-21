@@ -30,13 +30,17 @@ Launch it with :
 bash angular-module.sh
 `
 ### Multiples uses
-Create a directory and copy the `angular-module.sh` script
+Create a directory and copy the `angular-module.sh` script.
+
 Open your `.bashrc` file in your root directory.
 
-see if these lines are present, else add them :
+See if these lines are present, else add them :
+
 `
 if [ -f ~/.bash_aliases ]; then
+
     . ~/.bash_aliases
+
 fi
 `
 
@@ -44,8 +48,10 @@ If there's not a `.bash_aliases` file in your root directoty, create it.
 Add these lines to it :
 `
 alias nicomakemodule='bash ~/bash-script/angular-module/angular-module.sh'
+
 alias nmm='bash ~/bash-script/angular-module/angular-module.sh'
 `
+
 You can now launch this script by `nicomakemodule` or `nmm` after restarting your bash terminal.
 
 ## How it works ?
