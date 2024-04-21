@@ -3,12 +3,12 @@
 ### Context
 During my studies at Wild Code School, i learned to organized my Angular Projects in a certain way :
 * modules contains directories :
- * shared -> services / business layer
- * components 
+ - shared -> services / business layer
+ - components 
   * feature -> smart components
   * ui -> dumb components
- * models -> classes/interfaces/types
- * pages -> view components
+ - models -> classes/interfaces/types
+ - pages -> view components
 * modules can contain sub-modules, organized in same way
 
 ### Observation
