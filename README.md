@@ -36,21 +36,19 @@ Open your `.bashrc` file in your root directory.
 
 See if these lines are present, else add them :
 
-`
+```bash
 if [ -f ~/.bash_aliases ]; then
-
     . ~/.bash_aliases
-
 fi
-`
+```
 
 If there's not a `.bash_aliases` file in your root directoty, create it.
 Add these lines to it :
-`
+```bash
 alias nicomakemodule='bash ~/bash-script/angular-module/angular-module.sh'
 
 alias nmm='bash ~/bash-script/angular-module/angular-module.sh'
-`
+```
 
 You can now launch this script by `nicomakemodule` or `nmm` after restarting your bash terminal.
 
@@ -70,9 +68,9 @@ Script will ask you if it's a sub-module.
 **Y** or **y** will be yes, by default other response will be no.
 
 Yes or no, script creates directories and launch angular command :
-`
+```bash
 ng g module modules/your-module --routing
-`
+```
 
 Now, the lasy loading.
 
