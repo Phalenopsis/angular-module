@@ -46,7 +46,6 @@ If there's not a `.bash_aliases` file in your root directoty, create it.
 Add these lines to it :
 ```bash
 alias nicomakemodule='bash ~/bash-script/angular-module/angular-module.sh'
-
 alias nmm='bash ~/bash-script/angular-module/angular-module.sh'
 ```
 
@@ -78,7 +77,7 @@ Now, the lasy loading.
 
 If you accept, your file app-routing-module.ts will be updated.
 
-**Note : lazy-loading for sub-modules isn't yet implemented** You would implement it manually.
+**Note : lazy-loading for sub-modules isn't yet implemented** You should implement it manually.
 
 ![capture of routes updated](help/images/routes-updated.png)
 
