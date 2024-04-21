@@ -24,7 +24,7 @@ Learn, try, learn and try !
 ### One use
 Copy the script in your project root.
 Launch it with :
-`bash
+`
 bash angular-module.sh
 `
 
@@ -41,7 +41,7 @@ Script will ask you if it's a sub-module.
 Y or y will be yes, by default other response will be no.
 
 Yes or no, script creates directories and launch angular command :
-`bash
+`
 ng g module modules/your-module --routing
 `
 Now, the lasy loading.
