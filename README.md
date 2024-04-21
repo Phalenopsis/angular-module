@@ -29,8 +29,9 @@ bash angular-module.sh
 `
 
 ## How it works ?
-launch script
-first, you will enter your module's name.
+Launch script
+First, it ask your module's name.
+You could skip this step by add it after lauch command: `bash angular-module.sh account`
 
 ![capture of first question](help/images/img1.png)
 
