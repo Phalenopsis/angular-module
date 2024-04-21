@@ -31,7 +31,7 @@ bash angular-module.sh
 ## How it works ?
 launch script
 first, you will enter your module's name.
-!(assets/images/ask-module-name.png)
+![capture of first question](assets/images/ask-module-name.png)
 Script will ask you 
 
 
