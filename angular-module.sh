@@ -124,6 +124,9 @@ if [ $is_sub_module = "y" ];
 fi
 
 module_pascal_case="${new_module_name^}Module"
+arr=(${module_pascal_case//-/ })
+module_pascal_case="${arr[@]^}"
+module_pascal_case=${module_pascal_case// /}
 router="{ path: '$new_module_name', loadChildren: () =>  import('.\/modules\/$new_module_name\/$new_module_name.module').then(m  => m.$module_pascal_case) },"
 
 sed -i -e "s/Routes = \[\]/Routes = \[\n\t\]/g" src/app/app-routing.module.ts
